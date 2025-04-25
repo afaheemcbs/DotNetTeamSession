@@ -42,3 +42,8 @@ variable "username" {
   description = "The username of the user"
   type        = string
 }
+
+variable "storm_url" {
+  description = "the url of the storm app"
+  type = string
+}
